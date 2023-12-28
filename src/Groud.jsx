@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { useFrame, useLoader } from "@react-three/fiber";
 import { MeshReflectorMaterial } from "@react-three/drei";
 import { LinearEncoding, RepeatWrapping, TextureLoader } from "three";
-import terrian_normal from "../public/textures/terrain-normal.jpg";
-import terrian_roughness from "../public/textures/terrain-roughness.jpg";
+import terrian_normal from "/textures/terrain-normal.jpg";
+import terrian_roughness from "/textures/terrain-roughness.jpg";
 export function Ground() {
   // thanks to https://polyhaven.com/a/rough_plasterbrick_05 !
   const [roughness, normal] = useLoader(TextureLoader, [

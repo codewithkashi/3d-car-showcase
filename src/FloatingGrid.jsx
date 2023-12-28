@@ -1,7 +1,7 @@
 import { useFrame, useLoader } from "@react-three/fiber";
 import { useEffect } from "react";
 import { RepeatWrapping, TextureLoader } from "three";
-import texture from "../public/textures/grid-texture.png";
+import texture from "/textures/grid-texture.png";
 export function FloatingGrid() {
   const diffuse = useLoader(TextureLoader, texture);
 

@@ -5,7 +5,7 @@ import { Mesh } from "three";
 import { useGLTF } from "@react-three/drei";
 // import carScene from "../public/models/car/scene.gltf";
 export function Car() {
-  const gltf = useGLTF("../public/models/car/scene.gltf");
+  const gltf = useGLTF("/models/car/scene.gltf");
 
   useEffect(() => {
     gltf.scene.position.set(0, 0.15, 0);
